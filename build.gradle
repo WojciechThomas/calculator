@@ -10,6 +10,7 @@ sourceCompatibility = '1.8'
 
 repositories {
 	mavenCentral()
+	jcenter()
 }
 
 dependencies {
@@ -17,8 +18,8 @@ dependencies {
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
-	compile 'junit:junit:4.12'
-	testcompile 'junit:junit:4.12'
+	compile 'junit:junit'
+	testcompile 'junit:junit'
 }
 
 test {
